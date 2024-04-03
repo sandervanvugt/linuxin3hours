@@ -1,0 +1,94 @@
+[student@localhost linuxin3hours]$ history
+    1  whoami
+    2  sudo -i
+    3  vim countdown
+    4  nano countdown 
+    5  countdown 12
+    6  ./countdown 12
+    7  ls -l countdown 
+    8  chmod +x countdown
+    9  ./countdown 12
+   10  history
+   11  vim countdown 
+   12  which bash
+   13  vim countdown 
+   14  echo $PATH
+   15  pwd
+   16  ls -l countdown 
+   17  history
+   18  ./countdown 12
+   19  ls -l /root
+   20  ls -ld /root
+   21  whoami
+   22  id
+   23  sudo ls -l /root
+   24  ls -l -d /root
+   25  sudo ls -ldrt /etc/*
+   26  sudo -i
+   27  history
+   28  su -
+   29  history
+   30  sudo su -
+   31  sudo -i
+   32  history
+   33  whoami
+   34  cat countdown 
+   35  echo $SHELL
+   36  #chsh /bin/bash
+   37  history
+   38  history | less
+   39  echo $PATH
+   40  cp countdown /usr/local/bin/
+   41* sudo ls -ld /usr/local/bin
+   42  sudo cp countdown /usr/local/bin/
+   43  which countdown
+   44  history
+   45  git clone https://github.com/sandervanvugt/linuxin3hours
+   46  sudo dnf install git
+   47  git clone https://github.com/sandervanvugt/linuxin3hours
+   48  ls
+   49  cd linuxin3hours/
+   50  ls
+   51  cd ..
+   52  history
+   53  cd linuxin3hours/
+   54  ls
+   55  git pull
+   56  cat RESOURCES.txt 
+   57  history
+   58  ls /home/$USER
+   59  echo $USER
+   60  find / -name "hosts"
+   61  find / -name "hosts" 2> /dev/null
+   62  find / -size +200M 2> /dev/null
+   63  man hier
+   64  man vim
+   65  man -k password
+   66  man -k password | wc -l
+   67  man man
+   68  man -k password | wc -l
+   69  man -k password
+   70  man -k password | grep 8
+   71  man passwd
+   72  man -k password | grep 1
+   73  man passwd
+   74  man -k sander
+   75  sudo mandb
+   76  passwd --help
+   77  ls --help
+   78  ls --help | less
+   79  history
+   80  ls --help
+   81  ls --help | less
+   82  ssh student@192.168.29.157
+   83  sudo firewall-cmd --list-all
+   84  lsblk
+   85  ls -l /dev/sd*
+   86  lsblk
+   87  sudo mount /dev/sdb1 /mnt
+   88  ls /mnt
+   89  cp /etc/passwd /mnt/
+   90  ls /mnt
+   91  sudo umount /dev/sdb1
+   92  lsblk
+   93  history
