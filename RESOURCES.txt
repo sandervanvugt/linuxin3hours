@@ -12,3 +12,4 @@ RHCSA: https://learning.oreilly.com/course/red-hat-certified/9780137931521/
 LFCS: https://learning.oreilly.com/course/linux-foundation-certified/9780138230678/
 Linux+: https://learning.oreilly.com/course/comptia-linux-xk0-005/9780137903726/
 Mastering SELinux: https://learning.oreilly.com/course/mastering-security-enhanced-linux/9780138282691/
+Virtualization for Everyone: https://learning.oreilly.com/course/virtualization-for-everyone/9780135338698/
