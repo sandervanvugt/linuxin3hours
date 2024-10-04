@@ -1,0 +1,136 @@
+    1  cat /etc/os-release 
+    2  ls
+    3  whoami
+    4  chvt 3
+    5  sudo chvt 3
+    6  ls /root
+    7  sudo ls /root
+    8  id
+    9  whoami
+   10  su -
+   11  history
+   12  whoami
+   13  nano countdown
+   14  vim countdown
+   15  countdown
+   16  echo $PATH
+   17  ls
+   18  ./countdown
+   19  ls -l countdown 
+   20  chmod +x countdown 
+   21  pwd
+   22  ls -l countdown 
+   23  ./countdown 
+   24  cp countdown /usr/local/bin/
+   25  pwd
+   26  cd
+   27  sudo cp countdown /usr/local/bin/
+   28  countdown 
+   29  history
+   30  echo $PATH
+   31  -l
+   32  ls --help | less
+   33  ls
+   34  ls -l
+   35  git
+   36  sudo yum install git
+   37  git clone https://github.com/sandervanvugt/linuxin3hours
+   38  ls
+   39  ls -l
+   40  cd linuxin3hours/
+   41  ls
+   42  cat RESOURCES.txt 
+   43  history
+   44  which git
+   45  which git | cd
+   46  cd $(which git)
+   47  date +%d-%m-%y
+   48  touch backup-$(date +%d-%m-%y)
+   49  ls -l
+   50  cd /usr
+   51  touch testfile
+   52  pwd
+   53  cd
+   54  history
+   55  ls /home/$USER
+   56  echo $PATH
+   57  env
+   58  ls -l /home/$USER
+   59  ls -l /home/$(whoami)
+   60  whoami
+   61  cd /tmp
+   62  ls
+   63  touch hello
+   64  ls
+   65  ls -l .
+   66  ls -ld .
+   67  cd /run
+   68  ls
+   69  cd /etc
+   70  cat os-release 
+   71  ls
+   72  cat passwd
+   73  ls -l /etc/passwd /etc/shadow
+   74  sudo cat /etc/shadow
+   75  sudo -i
+   76  find / -name "passwd"
+   77  find / -name "passwd" 2> /dev/null
+   78  find / -name "passwd" /dev/null
+   79  find / -name "passwd" 
+   80  find / -name "passwd" > ~/output
+   81  cd
+   82  ls
+   83  cat output 
+   84  find / -name "passwd" > ~/output 2> /dev/null
+   85  chmod u-rw /etc/shadow
+   86  sudo chmod u-rw /etc/shadow
+   87  ls -l /etc/shadow
+   88  man hier
+   89  history
+   90  find / -name "passwd" 2> /dev/null
+   91  which passwd
+   92  man ls
+   93  man -k user
+   94  man -k user | wc -l
+   95  man -k user
+   96  man -k user | grep 8
+   97  man -k sander
+   98  mandb
+   99  sudo mandb
+  100  man grep
+  101  grep -i root /etc/*
+  102  grep -i root /etc/* 2> /dev/null
+  103  ssh student@192.168.29.182
+  104  service sshd status
+  105  systemctl status sshd
+  106  sudo systemctl stop sshd
+  107  sudo systemctl disable --now sshd
+  108  sudo systemctl enable --now sshjd
+  109  sudo systemctl enable --now sshd
+  110  sleep 3600 &
+  111  ps aux
+  112  kill 42367
+  113  ps aux
+  114  history
+  115* kill 4236
+  116  sleep 3600 &
+  117  pidof sleep
+  118  kill -9 $(pidof sleep)
+  119  sudo top
+  120  ip addr show
+  121  sudo firewall-cmd status
+  122  sudo firewall-cmd --list-all
+  123  sudo firewall-cmd --add service http --permanent
+  124  sudo firewall-cmd --add-service http --permanent
+  125  sudo firewall-cmd --list-all
+  126  sudo firewall-cmd --add-service http 
+  127  sudo firewall-cmd --list-all
+  128  ssh student@192.168.29.182
+  129  sudo lsblk
+  130  sudo mount /dev/nvme0n1p2 /mnt
+  131  ls /mnt
+  132  sudo umount /mnt
+  133  cd linuxin3hours/
+  134  ls
+  135  cat RESOURCES.txt 
+  136  history > /tmp/history-4-Oct-24.txt
