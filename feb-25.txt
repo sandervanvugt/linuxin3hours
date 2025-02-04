@@ -1,0 +1,125 @@
+    1  cat /etc/os-release 
+    2  whoami
+    3  ls -l /etc/shadow
+    4  ls -l /etc/passwd
+    5  cat /etc/passwd
+    6  cat /etc/shadow
+    7  sudo cat /etc/shadow
+    8  ls -l /etc/shadow
+    9  sudo ls -l /root
+   10  sudo -i
+   11  su -
+   12  vim countdown
+   13  ls -l countdown 
+   14  cat countdown 
+   15  nano countdown
+   16  vim countdown 
+   17  countdown
+   18  ./countdown
+   19  ls -l countdown 
+   20  chmod +x countdown 
+   21  ls -l countdown 
+   22  cat countdown 
+   23  ./countdown 12
+   24  vim countdown 
+   25  vi countdown
+   26  ls -l countdown 
+   27  history
+   28  countdown
+   29  echo $PATH
+   30  cat countdown 
+   31  pwd
+   32  ./countdown 
+   33  cp countdown /usr/local/bin
+   34  ls -l /usr/local/bin
+   35  ls -ld /usr/local/bin
+   36  sudo cp countdown /usr/local/bin
+   37  echo $?
+   38  history
+   39  ls -l /usr/local/bin
+   40  countdown 
+   41  history
+   42  countdown 1
+   43  echo $PATH
+   44  ls
+   45  mkdir bin
+   46  ls -l /usr/local/bin/countdown 
+   47  sudo mkdir /files
+   48  export PATH=$PATH:/files
+   49  echo $PATH
+   50  exit
+   51  echo $PATH
+   52  ls
+   53  ls -a
+   54  ls -l /etc/bashrc 
+   55  sudo vim /etc/bashrc
+   56  source /etc/bashrc
+   57  echo $PATH
+   58  sudo dnf install git
+   59  git clone https://github.com/sandervanvugt/linuxin3hours
+   60  cd linuxin3hours/
+   61  ls
+   62  ls /
+   63  ls -l /home/$USER
+   64  echo $USER
+   65  ls /tmp
+   66  touch /tmp/testfile
+   67  ls /tmp
+   68  whoami --help
+   69  ls -l /etc
+   70  cat /etc/vconsole.conf 
+   71  file /etc/vconsole.conf 
+   72  ls -l
+   73  cd ..
+   74  git clone https://github.com/sandervanvugt/cka
+   75  cd cka
+   76  ls
+   77  cd ..
+   78  find / -name "hosts"
+   79  find / -name "hosts" 2>/dev/null
+   80  mount | grep tmp
+   81  mount | grep /tmp
+   82  ls -ld /tmp
+   83  which passwd
+   84  find / -name "passwd" 2>/dev/null
+   85  countdown 12
+   86  man hier
+   87  man man
+   88  man grep
+   89  man lvcreate
+   90  find / -name "passwd" 2>/dev/null
+   91  man -k password
+   92  man passwd
+   93  man -k authentication
+   94  man -k user
+   95  man -k user | wc -l
+   96  man -k user 
+   97  man -k user | grep 8
+   98  man -k sander
+   99  sudo mandb
+  100  ssh 192.168.29.253
+  101  ssh 192.168.29.252
+  102  ssh student@192.168.29.252
+  103  sudo useradd anna
+  104  sudo passwd anna
+  105  ssh anna@localhost
+  106  sudo firewall-cmd --list-all
+  107  sudo firewall-cmd --add-service http --permanent
+  108  sudo firewall-cmd --reload
+  109  sudo firewall-cmd --list-all
+  110  ls --help | less
+  111  ls --all
+  112  ls -lrt
+  113  lsblk
+  114  ls -l /dev
+  115  lsblk
+  116  sudo mount /dev/sda1 /mnt
+  117  lsblk
+  118  ls /mnt
+  119  sudo umount /mnt
+  120  ls /mnt
+  121  history | grep git
+  122  cd linuxin3hours/
+  123  ls
+  124  cat RESOURCES.txt 
+  125  history > /tmp/feb-25.txt
