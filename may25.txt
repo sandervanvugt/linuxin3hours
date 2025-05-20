@@ -1,0 +1,127 @@
+***USED ON UBUNTU TO ENABLE SSH
+  389  sudo apt install openssh-server
+  390  ps aux
+  391  ps aux | grep ssh
+  392  sudo systemctl list-units ssh*
+  393  sudo systemctl status ssh.socket
+  394  ip a
+
+####USED ON REDHAT
+
+    1  ls
+    2  pwd
+    3  whoami
+    4  ls /root
+    5  sudo ls /root
+    6  id
+    7  sudo chvt 3
+    8  ls -l /etc/shadow
+    9  ls -l /etc/passwd
+   10  id
+   11  cat /etc/passwd
+   12  less /etc/passwd
+   13  history
+   14  ls -l /etc/shadow
+   15  cat /etc/shadow
+   16  sudo cat /etc/shadow
+   17  ls -l /etc/shadow
+   18  sudo -i
+   19  nano countdown
+   20  countdown 12
+   21  echo $PATH
+   22  pwd
+   23  ./countdown
+   24  ls -l countdown 
+   25  chmod +x countdown 
+   26  ls -l countdown 
+   27  history
+   28  history -d 25
+   29  history
+   30  countdown
+   31  echo $PATH
+   32  cp countdown /usr/local/bin/
+   33  ls -l /usr/local/bin/
+   34  ls -ld /usr/local/bin/
+   35  sudo cp countdown /usr/local/bin/
+   36  countdown 
+   37  sudo dnf install git
+   38  sudo subscription-manager register
+   39  sudo dnf install git
+   40  git clone https://github.com/sandervanvugt/linuxin3hours
+   41  ls
+   42  ls linuxin3hours/
+   43  cat /etc/os-release 
+   44  history
+   45  echo $USER
+   46  ls -ld /home/$USER
+   47  env
+   48  cd /tmp
+   49  ls
+   50  touch writetest
+   51  ls
+   52  cd /etc
+   53  ls
+   54  less passwd
+   55  cd /var/log
+   56  ls -l
+   57  sudo less messages 
+   58  sudo journalctl
+   59  cd
+   60  history
+   61  touch /tmp/found
+   62  find / -name "fou*"
+   63  find / -name "fou*" 2>/dev/null
+   64  sudo find / -size +100M 2>/dev/null
+   65  df -h
+   66  which found
+   67  which passwd
+   68  man hier
+   69  sudo dnf install man-pages
+   70  sudo dnf install command-line-assistant
+   71  c "which command can i use to find a file with the name passwd"
+   72   c "how do I reset the root user password if I currently have no access to any admin account"
+   73  c "what can I do if while trying the man find command I'm getting an error that reads no manual entry for find"
+   74  history
+   75  sudo find / -name "passwd" 2>/dev/null
+   76  sudo find / -name "passwd*" 2>/dev/null
+   77  which passwd
+   78  cd /etc
+   79  grep root *
+   80  grep root * 2>/dev/null
+   81  grep -l root * 2>/dev/null
+   82  man find
+   83  man -k passw
+   84  man -k passw | grep 1
+   85  man passwd
+   86  history
+   87  man grep
+   88  ssh student@192.168.29.139
+   89  vim /tmp/may25.txt
+   90  while true; do true; done &
+   91  top
+   92  sudo systemctl status sshd
+   93  sudo systemctl stop sshd
+   94  sudo systemctl status sshd
+   95  sudo systemctl disable sshd
+   96  sudo systemctl status sshd
+   97  sudo systemctl enable --now sshd
+   98  pidof ssh
+   99  pidof sshd
+  100  ps aux | grep ssh
+  101  kill $(pidof sshd)
+  102  sudo kill $(pidof sshd)
+  103  systemctl status sshd
+  104  sudo systemctl cat sshd.service
+  105  systemctl status sshd
+  106  suso systemctl start sshd
+  107  sudo systemctl start sshd
+  108  lsblk
+  109  sudo mount /dev/nvme0n1p2 /mnt
+  110  mount
+  111  ls /mnt
+  112  lsblk
+  113  sudo umount /mnt
+  114  lsblk
+  115  ls /dev/nvme*
+  116  cd
+  117  history >> /tmp/may25.txt 
