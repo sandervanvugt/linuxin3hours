@@ -1,0 +1,136 @@
+    1  echo $SHELL
+    2  whoami
+    3  sudo -i
+    4  man shadow
+    5  man 5 shadow
+    6  useradd -m lisa
+    7  sudo useradd -m lisa
+    8  sudo -i
+    9  history
+   10  cat /etc/passwd
+   11  history
+   12  history -d 11
+   13  history
+   14  ls -a
+   15  cd /etc
+   16  ls
+   17  man 5 resolv.conf
+   18  ls
+   19  which ls
+   20  man ls
+   21  cd
+   22  nano countdown
+   23  countdown 12
+   24  echo $PATH
+   25  ./countdown 12
+   26  ls -l
+   27  chmod +x countdown
+   28  ls -l
+   29  ./countdown 12
+   30  sudo dnf install man-pages
+   31  sudo apt install man-pages
+   32  reset
+   33  history
+   34  cd /etc
+   35  ls
+   36  less protocols 
+   37  cd /usr/bin
+   38  ls
+   39  less pasta
+   40  cd
+   41  echo $SHELL
+   42  nano countdown 
+   43  vim countdown 
+   44  vimtutor
+   45  cat countdown 
+   46  history
+   47  countdow
+   48  countdown
+   49  echo $PATH
+   50  pwd
+   51  cp countdown /usr/local/bin/
+   52  sudo cp countdown /usr/local/bin/
+   53  countdown 
+   54  history
+   55  chmod +x countdown 
+   56  file countdown 
+   57  ls -l countdown 
+   58  ls -l /usr/local/bin/countdown 
+   59  chmod +x /usr/local/bin/countdown 
+   60  sudo chmod +x /usr/local/bin/countdown 
+   61  history
+   62  cat countdown 
+   63  which ss
+   64  which sh
+   65  cat /etc/os-release 
+   66  sudo dnf install git
+   67  git clone https://github.com/sandervanvugt/linuxin3hours
+   68  ls
+   69  ls -l
+   70  ls linuxin3hours/
+   71  cd linuxin3hours/
+   72  cat RESO
+   73  cat RESOURCES.txt 
+   74  cd /
+   75  ls
+   76  cd /home
+   77  ls
+   78  touch hhhh
+   79  cd
+   80  pwd
+   81  touch hhhh
+   82  cd /
+   83  ls
+   84  tree
+   85  ls
+   86  cd /usr/bin
+   87  ls
+   88  osinfo-detect 
+   89  cd ../sbin
+   90  ls
+   91  cd
+   92  man hier
+   93  less /etc/passwd
+   94  cd /usr/sbin
+   95  ls -l
+   96  cd
+   97  find / -name "shadow"
+   98  find / -name "shadow" 2>/dev/null
+   99  sudo find / -name "shadow" 2>/dev/null
+  100  cd /etc
+  101  grep lisa *
+  102  grep lisa * 2>/dev/null
+  103  history
+  104  cd
+  105  ssh 192.168.29.139
+  106  sudo systemctl status sshd
+  107  sudo systemctl stop sshd
+  108  sudo systemctl disable --now sshd
+  109  sudo systemctl enable --now sshd
+  110  ps aux | grep ssh
+  111  #sudo kill -9 $(pidof sshd)
+  112  pidof sshd
+  113  sudo kill -9 $(pidof sshd)
+  114  ps aux | grep ssh
+  115  systemctl status sshd
+  116  top
+  117  htop
+  118  ip a
+  119  man ifconfig
+  120  ssh student@192.168.29.146
+  121  lsblk
+  122  ls /dev
+  123  lsblk
+  124  sudo mount /dev/sda1 /mnt
+  125  ls /mnt
+  126  mount
+  127  lsblk
+  128  sudo umount /mnt
+  129  lsblk
+  130  ls /mnt
+  131  cd linuxin3hours/
+  132  cat RESOURCES.txt 
+  133  git pull
+  134  cat RESOURCES.txt 
+  135  cd
+  136  history > /tmp/july25.txt
