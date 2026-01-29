@@ -1,0 +1,126 @@
+    1  sudo chvt 3
+    2  ls /root
+    3  sudo ls /root
+    4  id
+    5  sudo useradd -m -s /bin/bash anna
+    6  sudo passwd anna
+    7  su - anna
+    8  history
+    9  sleep 50
+   10  id
+   11  nano countdown.sh
+   12  ls -l
+   13  countdown.sh
+   14  ./countdown.sh
+   15  chmod +x countdown.sh 
+   16  ./countdown.sh 12
+   17  sleep infinity
+   18  history
+   19  nano countdown.sh
+   20  echo hello
+   21  echo $(( 4 * 4 ))
+   22  nano countdown.sh
+   23  ./countdown.sh 5
+   24  historty
+   25  history
+   26  countdown.sh
+   27  ls -l cou*
+   28  echo $PATH
+   29  pwd
+   30  ./countdown.sh 
+   31  mv countdown.sh countdown
+   32  ./countdown 
+   33  file countdown 
+   34  chmod -x
+   35  chmod -x countdown 
+   36  echo $PATH
+   37  man crontab
+   38  ls -l countdown 
+   39  ./countdown
+   40  chmod +x countdown 
+   41  ls -l countdown 
+   42  chmod 644 countdown 
+   43  ls -l countdown 
+   44  chmod 755 countdown 
+   45  man chmod 
+   46  ls -l /bin/*
+   47  echo $PATH
+   48  mv countdown /usr/local/bin/
+   49  ls -l /usr/local/bin
+   50  ls -l /usr/bin
+   51  ls -ld /usr/local/bin
+   52  mv countdown /usr/local/bin/
+   53  sudo mv countdown /usr/local/bin/
+   54  ls
+   55  ls -l /usr/local/bin/
+   56  countdown 
+   57  history
+   58  ls -ld /usr/local/bin
+   59  history
+   60  cat /etc/os-release 
+   61  type /usr/local/bin/countdown 
+   62  history
+   63  history | less
+   64  git
+   65  sudo dnf install git
+   66  git clone https://github.com/sandervanvugt/linuxin3hours
+   67  ls
+   68  cd linuxin3hours/
+   69  ls
+   70  cat RESOURCES.txt 
+   71  history
+   72  which git
+   73  cat /etc/os-release 
+   74  sudo dnf install git 
+   75  cd 
+   76  history
+   77  ls
+   78  ls ~/linuxin3hours/
+   79  history
+   80  ls -ld /home/$USER
+   81  ls -ld /tmp
+   82  ls -l /tmp
+   83  ls /etc
+   84  cat /etc/passwd
+   85  ls /
+   86  man hier
+   87  cd /var/log/
+   88  ls
+   89  sudo touch hellofile
+   90  cd
+   91  find / -name "hellofile"
+   92  find / -name "hellofile" 2> /dev/null
+   93  sudo find / -size +200M 2>/dev/null
+   94  which passwd
+   95  which countdown
+   96  sudo find / -name "passwd"
+   97  man useradd
+   98  man man
+   99  man useradd
+  100  useradd --help 
+  101  man -k password
+  102  man -k password | grep 1
+  103  man man
+  104  man -k sander
+  105  sudo mandb
+  106  history
+  107  ip a
+  108  ssh student@192.168.29.138
+  109  ssh-keygen
+  110  ssh-copy-id 192.168.29.138
+  111  ssh 192.168.29.138
+  112  history
+  113  ssh 192.168.29.138
+  114  cat /etc/os-release 
+  115  sudo firewall-cmd stauts
+  116  sudo firewall-cmd status
+  117  sudo firewall-cmd --list--all
+  118  sudo firewall-cmd --list-all
+  119  firewall-cmd --help | grep list
+  120  sudo lsblk
+  121  ls -l /run/media/student/RHEL-9-5-0-BaseOS-x86_64/
+  122  sudo mount /dev/sda1 /mnt
+  123  sudo lsblk
+  124  ls /mnt
+  125  sudo umount /mnt
+  126  history > /tmp/jan26.txt
